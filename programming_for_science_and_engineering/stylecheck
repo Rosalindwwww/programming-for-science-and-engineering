@@ -1,0 +1,23 @@
+grep -P “\t” <filename>
+valgrind --leak-check=full ./test.exe
+g++ -Wall -std=c++98 test.cpp -o test.exe
+check:
+1.header
+2.comment for each function
+3.indent for {},the same colum 
+4.:set colorcolumn=80
+5.no tab
+6.no magic number
+6,no duplicate code
+7.no global value
+9.a + b
+11.consistent indentation
+12.identifier naming
+13.const, varible define
+
+$script
+make
+exit
+=====
+	valgrind --leak-check=full ./proj3.exe
+
